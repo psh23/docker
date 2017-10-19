@@ -19,11 +19,6 @@ ALTER ROLE postgres WITH SUPERUSER INHERIT CREATEROLE CREATEDB LOGIN REPLICATION
 
 
 
---
--- Tablespaces
---
-
-CREATE TABLESPACE maindata OWNER postgres LOCATION '/postgres';
 
 
 --
